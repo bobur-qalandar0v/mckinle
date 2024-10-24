@@ -1,13 +1,11 @@
+import Service from "/public/Services.png";
+
 function Services() {
   return (
     <>
       <div className="container">
         <div className="services">
-          <img
-            className="services__img"
-            src="/public/Services.png"
-            alt="Services"
-          />
+          <img className="services__img" src={Service} alt="Services" />
           <div className="services__card">
             <h1 className="services__title">Personalized Legal Services</h1>
             <p className="services__text">

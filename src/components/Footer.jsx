@@ -1,6 +1,4 @@
-import FaceBook from "../assets/icons/FaceBook";
-import Linkedin from "../assets/icons/Linkedin";
-import Twitter from "../assets/icons/Twitter";
+import Logo from "/public/whiteLogo.png";
 
 function Footer() {
   return (
@@ -10,7 +8,7 @@ function Footer() {
           <div className="footer__wrap">
             <div className="footer__left">
               <div className="whiteLogo">
-                <img src="/public/whiteLogo.png" alt="Logo" />
+                <img src={Logo} alt="Logo" />
               </div>
               <div className="footer__abouts">
                 <p>2972 Westheimer Road</p>
@@ -21,18 +19,9 @@ function Footer() {
                 </a>
               </div>
               <div className="footer__links">
-                <a href="https://www.facebook.com/">
-                  <FaceBook />
-                  Facebook
-                </a>
-                <a href="https://www.linkedin.com/login">
-                  <Linkedin />
-                  Linkedin
-                </a>
-                <a href="https://x.com/login">
-                  <Twitter />
-                  Twitter
-                </a>
+                <a href="https://www.facebook.com/">Facebook</a>
+                <a href="https://www.linkedin.com/login">Linkedin</a>
+                <a href="https://x.com/login">Twitter</a>
               </div>
             </div>
             <div className="footer__right">
