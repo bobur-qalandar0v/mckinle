@@ -1,3 +1,5 @@
+import BnnerImg from "../assets/images/banner.png";
+
 function Banner() {
   return (
     <div className="main__wrap">
@@ -15,7 +17,7 @@ function Banner() {
             <button className="header__button">Request Consultation</button>
           </div>
           <div className="main__banner-right">
-            <img src="/public/banner.png" alt="banner" />
+            <img src={BnnerImg} alt="banner" />
           </div>
         </div>
       </div>
