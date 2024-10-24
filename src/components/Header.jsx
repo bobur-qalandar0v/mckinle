@@ -2,8 +2,8 @@ import CLoseMenuIcon from "../assets/icons/CloseMenuIcon";
 import FaceBook from "../assets/icons/FaceBook";
 import Linkedin from "../assets/icons/Linkedin";
 import MenuIcon from "../assets/icons/MenuIcon";
-// import React, { useState } from "react";
 import Twitter from "../assets/icons/Twitter";
+import Logo from "/public/Logo.png"
 
 function Header({ open, setOpen }) {
   const toggleMenu = () => {
@@ -16,7 +16,7 @@ function Header({ open, setOpen }) {
         <div className="header__wrap">
           <div className="header__left">
             <div className="header__logo">
-              <img src="/public/Logo.png" alt="Logo" />
+              <img src={Logo} alt="Logo" />
             </div>
             <nav className="header__nav">
               <a href="#" className="header__nav-links">
