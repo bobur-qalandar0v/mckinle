@@ -150,6 +150,10 @@
       gap: 30px;
     }
 
+    @media screen and (max-width: 540px) {
+      gap: 20px;
+    }
+
     @media screen and (max-width: 480px) {
       width: 60%;
       gap: 15px;
