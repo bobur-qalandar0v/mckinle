@@ -12,7 +12,7 @@ function Banner() {
             <p className="main__banner-text">
               We understand the difficulties and stress that your legal issues
               bring. Our team is committed to providing you with the individual
-              attention, communication, and dedication you deserve.
+              attention, communication, and dedication you deserve
             </p>
             <button className="header__button">Request Consultation</button>
           </div>
