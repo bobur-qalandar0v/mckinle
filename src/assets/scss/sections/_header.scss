@@ -147,6 +147,7 @@
 
     @media screen and (max-width: 600px) {
       width: 50%;
+      gap: 30px;
     }
 
     @media screen and (max-width: 480px) {
@@ -186,15 +187,15 @@
     gap: 24px;
 
     @media screen and (max-width: 600px) {
-      gap: 18px;
-    }
-
-    @media screen and (max-width: 500px) {
       gap: 14px;
     }
 
-    @media screen and (max-width: 400px) {
+    @media screen and (max-width: 500px) {
       gap: 10px;
+    }
+
+    @media screen and (max-width: 400px) {
+      gap: 6px;
     }
 
     > a {
@@ -301,6 +302,7 @@
 
     @media screen and (max-width: 400px) {
       font-size: 16px;
+      line-height: 26px;
     }
 
     @media screen and (max-width: 370px) {
