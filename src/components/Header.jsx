@@ -2,7 +2,7 @@ import CLoseMenuIcon from "../assets/icons/CloseMenuIcon";
 import FaceBook from "../assets/icons/FaceBook";
 import Linkedin from "../assets/icons/Linkedin";
 import MenuIcon from "../assets/icons/MenuIcon";
-import React, { useState } from "react";
+// import React, { useState } from "react";
 import Twitter from "../assets/icons/Twitter";
 
 function Header({ open, setOpen }) {

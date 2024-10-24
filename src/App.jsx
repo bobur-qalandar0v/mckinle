@@ -7,6 +7,7 @@ import Slider from "./components/Slides";
 import Footer from "./components/Footer";
 import { useState } from "react";
 import Articles from "./components/Articles";
+import LegalAdvice from "./components/LegalAdvice";
 
 function App() {
   const [open, setOpen] = useState(false);
@@ -20,6 +21,7 @@ function App() {
         <Services />
         <Slider />
         <Articles />
+        <LegalAdvice />
       </main>
       <Footer />
     </div>
