@@ -28,20 +28,20 @@ export const practiceData = [
     title: "Intellectual Property",
     subtitle:
       "Intellectual Property law deals with laws to protect creators and owners of inventions, writing, music, designs and other works.",
-    image: "/public/IntelectualProperty.png",
+    image: "https://i.postimg.cc/ht41748C/IMAGE-2x.png",
   },
   {
     id: 2,
     title: "Real Estate",
     subtitle:
       "Real estate law is a branch of civil law that covers the right to possess, use, and enjoy land.",
-    image: "/public/RealEstate.png",
+    image: "https://i.postimg.cc/vT3cRy1B/IMAGE-2.pngx",
   },
   {
     id: 3,
     title: "Tax Law",
     subtitle:
       "Tax law cover income, corporate, excise, luxury, estate and property taxes, to name a few.",
-    image: "/public/TaxLaw.png",
+    image: "https://i.postimg.cc/L5C6CV7g/IMAGE-3.png",
   },
 ];
